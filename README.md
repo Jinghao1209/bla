@@ -7,7 +7,7 @@
 3. `npm i`
 4. `npm run build`
 5. 打开XAMPP
-6. 更改 ___.../XAMPP...___/etc/httpd.conf 的位置，类似[这个文件](etc/httpd.conf)
+6. 更改 ___.../XAMPP...___/etc/httpd.conf 的一些内容，类似[这个文件](etc/httpd.conf)
 7. 运行XAMPP
 8. 打开[localhost/phpmyadmin](http://localhost/phpmyadmin/)
 9. SQL ->
