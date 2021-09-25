@@ -20,12 +20,7 @@ const Leaderboard = () => {
         return map
     }
     useEffect(() => {
-        getLeadercount().then(res => {
-            for (let i = 0; i < 10; i++) {
-                tmpArr.push(res[i] ?? ['', 0])
-            }
-            ca(tmpArr)
-        })
+        getLeadercount().then(res => ca(res))
     })
 
     return (
@@ -40,7 +35,7 @@ const Leaderboard = () => {
                     })}
                 </div>
             </ol>
-            <center>just show top 10</center>
+            <center>Enjoy...</center>
         </main>
     )
 }
