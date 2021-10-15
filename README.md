@@ -1,6 +1,11 @@
 # React project
 `/etc/httpd.conf`是XAMPP的/etc/httpd，要改path...
 
+# SQL
+database: test_db
+table: db
+db内嵌: id, click, country
+
 ## Start
 1. 打开终端
 2. `cd /your/path`
