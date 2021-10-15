@@ -30,8 +30,9 @@ body {
     font-size: 80px;
     word-wrap: break-word;
 }
-.image {
-    background-image: url('https://popcat.click/img/p.1e9d00be.png');
+img {
+    position: sticky;
+    margin: auto;
 }
 p {
     font-size: 60px;
