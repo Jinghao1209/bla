@@ -3,38 +3,68 @@ import axios from 'axios';
 import randomuuid from './randomuuid';
 import Leaderboard from './leaderboard';
 //#region CSS
-import Character_1 from './people/character/Character 500x500-1.png';
-import Character_2 from './people/character/Character 500x500-2.png';
-import Character_3 from './people/character/Character 500x500-3.png';
-import Character_4 from './people/character/Character 500x500-4.png';
-import Character_5 from './people/character/Character 500x500-5.png';
-import Character_6 from './people/character/Character 500x500-6.png';
-import Character_7 from './people/character/Character 500x500-7.png';
-import Character_8 from './people/character/Character 500x500-8.png';
-import Character_9 from './people/character/Character 500x500-9.png';
-import Character_10 from './people/character/Character 500x500-10.png';
-import Character_11 from './people/character/Character 500x500-11.png';
-import Character_12 from './people/character/Character 500x500-12.png';
-import Character_13 from './people/character/Character 500x500-13.png';
-import Character_14 from './people/character/Character 500x500-14.png';
-import Character_15 from './people/character/Character 500x500-15.png';
-import Character_16 from './people/character/Character 500x500-16.png';
-import Character_17 from './people/character/Character 500x500-17.png';
-import Character_18 from './people/character/Character 500x500-18.png';
-import Character_19 from './people/character/Character 500x500-19.png';
-import Character_20 from './people/character/Character 500x500-20.png';
-import Character_21 from './people/character/Character 500x500-21.png';
-import Character_22 from './people/character/Character 500x500-22.png';
-import Character_23 from './people/character/Character 500x500-23.png';
-import Character_24 from './people/character/Character 500x500-24.png';
-import Character_25 from './people/character/Character 500x500-25.png';
-import Character_26 from './people/character/Character 500x500-26.png';
-import Character_27 from './people/character/Character 500x500-27.png';
-import Character_28 from './people/character/Character 500x500-28.png';
-import Character_29 from './people/character/Character 500x500-29.png';
-import Character_30 from './people/character/Character 500x500-30.png';
+import Character_1 from './people/30/1-30 normal 2 center-01.png';
+import Character_2 from './people/30被打/1-30 normal 2 center被打-01.png';
+import Character_3 from './people/30/1-30 normal 2 center-02.png';
+import Character_4 from './people/30被打/1-30 normal 2 center被打-02.png';
+import Character_5 from './people/30/1-30 normal 2 center-03.png';
+import Character_6 from './people/30被打/1-30 normal 2 center被打-03.png';
+import Character_7 from './people/30/1-30 normal 2 center-04.png';
+import Character_8 from './people/30被打/1-30 normal 2 center被打-04.png';
+import Character_9 from './people/30/1-30 normal 2 center-05.png';
+import Character_10 from './people/30被打/1-30 normal 2 center被打-05.png';
+import Character_11 from './people/30/1-30 normal 2 center-06.png';
+import Character_12 from './people/30被打/1-30 normal 2 center被打-06.png';
+import Character_13 from './people/30/1-30 normal 2 center-07.png';
+import Character_14 from './people/30被打/1-30 normal 2 center被打-07.png';
+import Character_15 from './people/30/1-30 normal 2 center-08.png';
+import Character_16 from './people/30被打/1-30 normal 2 center被打-08.png';
+import Character_17 from './people/30/1-30 normal 2 center-09.png';
+import Character_18 from './people/30被打/1-30 normal 2 center被打-09.png';
+import Character_19 from './people/30/1-30 normal 2 center-10.png';
+import Character_20 from './people/30被打/1-30 normal 2 center被打-10.png';
+import Character_21 from './people/30/1-30 normal 2 center-11.png';
+import Character_22 from './people/30被打/1-30 normal 2 center被打-11.png';
+import Character_23 from './people/30/1-30 normal 2 center-12.png';
+import Character_24 from './people/30被打/1-30 normal 2 center被打-12.png';
+import Character_25 from './people/30/1-30 normal 2 center-13.png';
+import Character_26 from './people/30被打/1-30 normal 2 center被打-13.png';
+import Character_27 from './people/30/1-30 normal 2 center-14.png';
+import Character_28 from './people/30被打/1-30 normal 2 center被打-14.png';
+import Character_29 from './people/30/1-30 normal 2 center-15.png';
+import Character_30 from './people/30被打/1-30 normal 2 center被打-15.png';
+import Character_31 from './people/30/1-30 normal 2 center-16.png';
+import Character_32 from './people/30被打/1-30 normal 2 center被打-16.png';
+import Character_33 from './people/30/1-30 normal 2 center-17.png';
+import Character_34 from './people/30被打/1-30 normal 2 center被打-17.png';
+import Character_35 from './people/30/1-30 normal 2 center-18.png';
+import Character_36 from './people/30被打/1-30 normal 2 center被打-18.png';
+import Character_37 from './people/30/1-30 normal 2 center-19.png';
+import Character_38 from './people/30被打/1-30 normal 2 center被打-19.png';
+import Character_39 from './people/30/1-30 normal 2 center-20.png';
+import Character_40 from './people/30被打/1-30 normal 2 center被打-20.png';
+import Character_41 from './people/30/1-30 normal 2 center-21.png';
+import Character_42 from './people/30被打/1-30 normal 2 center被打-21.png';
+import Character_43 from './people/30/1-30 normal 2 center-22.png';
+import Character_44 from './people/30被打/1-30 normal 2 center被打-22.png';
+import Character_45 from './people/30/1-30 normal 2 center-23.png';
+import Character_46 from './people/30被打/1-30 normal 2 center被打-23.png';
+import Character_47 from './people/30/1-30 normal 2 center-24.png';
+import Character_48 from './people/30被打/1-30 normal 2 center被打-24.png';
+import Character_49 from './people/30/1-30 normal 2 center-25.png';
+import Character_50 from './people/30被打/1-30 normal 2 center被打-25.png';
+import Character_51 from './people/30/1-30 normal 2 center-26.png';
+import Character_52 from './people/30被打/1-30 normal 2 center被打-26.png';
+import Character_53 from './people/30/1-30 normal 2 center-27.png';
+import Character_54 from './people/30被打/1-30 normal 2 center被打-27.png';
+import Character_55 from './people/30/1-30 normal 2 center-28.png';
+import Character_56 from './people/30被打/1-30 normal 2 center被打-28.png';
+import Character_57 from './people/30/1-30 normal 2 center-29.png';
+import Character_58 from './people/30被打/1-30 normal 2 center被打-29.png';
+import Character_59 from './people/30/1-30 normal 2 center-30.png';
+import Character_60 from './people/30被打/1-30 normal 2 center被打-30.png';
 import './index.css';
-//#endregion
+//#endregion CSS
 
 let downX, downY, upX, upY, placeX, placeY, lastXY, clicked = false;
 function App() {
@@ -121,6 +151,36 @@ function App() {
             !beaten ? setCharacterSrc(Character_27) : setCharacterSrc(Character_28);
         } else if (clicktime > 5000 && clicktime <= 6000) {
             !beaten ? setCharacterSrc(Character_29) : setCharacterSrc(Character_30);
+        } else if (clicktime > 6000 && clicktime <= 7000) {
+            !beaten ? setCharacterSrc(Character_31) : setCharacterSrc(Character_32);
+        } else if (clicktime > 7000 && clicktime <= 8000) {
+            !beaten ? setCharacterSrc(Character_33) : setCharacterSrc(Character_34);
+        } else if (clicktime > 9000 && clicktime <= 10000) {
+            !beaten ? setCharacterSrc(Character_35) : setCharacterSrc(Character_36);
+        } else if (clicktime > 10000 && clicktime <= 20000) {
+            !beaten ? setCharacterSrc(Character_37) : setCharacterSrc(Character_38);
+        } else if (clicktime > 30000 && clicktime <= 40000) {
+            !beaten ? setCharacterSrc(Character_39) : setCharacterSrc(Character_40);
+        } else if (clicktime > 40000 && clicktime <= 50000) {
+            !beaten ? setCharacterSrc(Character_41) : setCharacterSrc(Character_42);
+        } else if (clicktime > 50000 && clicktime <= 60000) {
+            !beaten ? setCharacterSrc(Character_43) : setCharacterSrc(Character_44);
+        } else if (clicktime > 60000 && clicktime <= 70000) {
+            !beaten ? setCharacterSrc(Character_45) : setCharacterSrc(Character_46);
+        } else if (clicktime > 70000 && clicktime <= 80000) {
+            !beaten ? setCharacterSrc(Character_47) : setCharacterSrc(Character_48);
+        } else if (clicktime > 80000 && clicktime <= 90000) {
+            !beaten ? setCharacterSrc(Character_49) : setCharacterSrc(Character_50);
+        } else if (clicktime > 90000 && clicktime <= 100000) {
+            !beaten ? setCharacterSrc(Character_51) : setCharacterSrc(Character_52);
+        } else if (clicktime > 100000 && clicktime <= 150000) {
+            !beaten ? setCharacterSrc(Character_53) : setCharacterSrc(Character_54);
+        } else if (clicktime > 150000 && clicktime <= 200000) {
+            !beaten ? setCharacterSrc(Character_55) : setCharacterSrc(Character_56);
+        } else if (clicktime > 200000 && clicktime <= 250000) {
+            !beaten ? setCharacterSrc(Character_57) : setCharacterSrc(Character_58);
+        } else if (clicktime > 250000 && clicktime <= 300000) {
+            !beaten ? setCharacterSrc(Character_59) : setCharacterSrc(Character_60);
         }
     }
     /**
@@ -176,7 +236,7 @@ function App() {
             <p>POP</p>
             <div className="img">
                 <div id="ClickTime" className="ClickTime">{clicktime}</div>
-                <img src={characterSrc} />
+                <img src={characterSrc} alt="character" />
             </div>
             <section data-leaderboard style={{ display: 'block' }}>
                 {/* ≔ */}

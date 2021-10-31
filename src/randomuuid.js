@@ -1,4 +1,4 @@
-export default () => {
+export default function RandomUUID() {
     var charset = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_-",
         min = 100,
         max = 255,

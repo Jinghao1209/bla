@@ -4,13 +4,11 @@ import axios from 'axios';
 
 const Leaderboard = () => {
     const [a, ca] = useState([])
-    var tmpArr = []
     /**
      * @returns {any[]} name[n][0] => Country, namme[n][1] => count
      */
     const getLeadercount = async () => {
-        tmpArr = []
-        var response = await axios.get('http://localhost/leaderboard.php')
+        var response = await axios.get('/leaderboard.php')
         /**
          * @type {object}
          */
